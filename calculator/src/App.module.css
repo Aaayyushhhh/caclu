@@ -1,0 +1,21 @@
+body {
+  background-image: url("../notebookSchoolbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  top: 90px;
+  height: 600px;
+  border: 1px solid black;
+  width: 300px;
+  border-radius: 5px;
+  margin: auto;
+  color: black;
+  background-color: #bcc6cc;
+  border-radius: 3rem;
+  position: relative;
+}
