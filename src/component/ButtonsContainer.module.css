@@ -1,0 +1,70 @@
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+}
+
+.buttonRow {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.button {
+  width: 65px;
+  height: 65px;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+  color: #333;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 7px 7px 15px #bebebe, -7px -7px 15px #ffffff;
+}
+
+.button:active {
+  transform: translateY(0);
+  box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+}
+
+.operatorButton {
+  background: linear-gradient(145deg, #ff6b6b, #ee5a52);
+  color: white;
+}
+
+.operatorButton:hover {
+  background: linear-gradient(145deg, #ff5252, #e53935);
+}
+
+.equalsButton {
+  background: linear-gradient(145deg, #4ecdc4, #44a08d);
+  color: white;
+  flex: 2;
+  width: 138px;
+}
+
+.equalsButton:hover {
+  background: linear-gradient(145deg, #26d0ce, #2bb3aa);
+}
+
+.clearButton {
+  background: linear-gradient(145deg, #ffa726, #ff9800);
+  color: white;
+}
+
+.clearButton:hover {
+  background: linear-gradient(145deg, #ff9800, #f57c00);
+}
+
+.zeroButton {
+  flex: 2;
+  width: 138px;
+}
